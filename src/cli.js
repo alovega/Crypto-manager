@@ -44,11 +44,7 @@ export async function cli(argsArray) {
             help(args);
             break;
 
-        // case 'createDatabase':
-        //     connectToDatabase(args);
-        //     break;
-
-        case 'token':
+        case 'info':
             tokenInformation(args, twirlTimer());
             break;
     }
